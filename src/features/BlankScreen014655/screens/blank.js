@@ -38,10 +38,23 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_2: {
     width: 100,
     height: 100,
+    textAlign: "center",
+    textDecorationLine: "overline",
+    lineHeight: 32,
+    letterSpacing: 21
+  },
+
+  Button_3: {},
+  View_1: {},
+  Text_2: {
+    width: 100,
+    height: 100,
+    overflow: "hidden",
     textAlign: "center",
     textDecorationLine: "overline",
     lineHeight: 32,
